@@ -7,6 +7,8 @@ Este proyecto es una aplicación de e-commerce desplegada en AWS con un frontend
 ## URL de despliegue
 
 El proyecto está desplegado y accesible desde la siguiente URL: [E-commerce](http://pruebafrontlink.s3-website.us-east-2.amazonaws.com/).
+usuarios: admin,user
+contraseñas admin123, user123
 
 ## Requisitos previos
 
