@@ -106,11 +106,19 @@ El frontend está desarrollado con **Angular 17** y está desplegado en un bucke
 #### Despliegue en AWS
 
 - **Backend**: Desplegado en una instancia de EC2, se debe configurar el servicio de Spring Boot para que corra en el servidor con un archivo `.jar`.
-![EC2](image-1.png)
+EC2:
+![image](https://github.com/user-attachments/assets/5764d90b-172d-456c-afb2-aa9fd4fcd1d9)
+
+
 - **Frontend**: Desplegado en un bucket S3 con acceso público habilitado.
-![Bucket S3](image.png)
+Bucket S3:
+![image](https://github.com/user-attachments/assets/dd26f8b0-1dc5-42ea-aed1-6e91799259ee)
+
+
 - **Base de Datos**: La base de datos está en Amazon RDS con MySQL.
-![RDS](image-2.png)
+  RDS:
+![image](https://github.com/user-attachments/assets/1f3d5f08-2cb0-4aa2-845e-fdf7fbd1bf2e)
+
 
 #### Control de Versiones con Azure Pipelines
 
